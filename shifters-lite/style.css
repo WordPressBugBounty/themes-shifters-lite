@@ -5,9 +5,9 @@ Author: Grace Themes
 Author URI: https://gracethemes.com/
 Description: Shifters Lite is a attractive, sleek, intuitive, responsive and multi-purpose logistics WordPress theme suitable for logistics, transportation and general moving services. If you are in the business which provides services like delivery and shipping, this theme will be a perfect platform to consider for a digital presence of your business that will keep your clients happy and engaged. It has a professional orientation with neat little features which makes it a brilliant choice for transportation business and services. This multi-purpose logistics WordPress theme is ideal for any transportation related industries like trucking, air cargo, air transport, movers and packers, warehousing, general logistics, and other related businesses. It can also be used for corporate, construction, architecture firm, yoga, gym, fitness club, NGO, travel, adventure, personal blog, digital agency, marketing and any other business website. Demo Link: http://gracethemesdemo.com/shifters/
 Requires at least: 5.0
-Tested up to: 6.0
+Tested up to: 6.8
 Requires PHP: 5.6
-Version: 2.1
+Version: 2.2
 License: GNU General Public License version 2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: shifters-lite
@@ -101,7 +101,7 @@ table{ width:100%}
 .site-header.fixed{ position: fixed; top:0; z-index:99999999; width:100%; }
 .cotact_info_area{ float:right; width:70%; color:#555; padding:16px 0; text-align:right; }
 
-.infobox{ display:inline-block; margin:0 0 0 4%; text-align:left; color:#262626; font-size:16px;}
+.infobox{ display:inline-block; margin:0 0 0 4%;  font-size:16px; text-align:left; color:#262626;}
 .infobox span{ float:right;}
 .infobox a{ color:#262626;}
 .infobox span strong{ display:block; text-align:left; font-weight:600; color:#262626; font-size:17px; }
@@ -201,7 +201,7 @@ h2.sectiontitle{font-weight:600; font-size:40px; margin-bottom:50px; position:re
 --------------------------------------------------- */
 #four_pagebox_sections{ padding:0 0 80px; position:relative; z-index:9999; }
 #four_pagebox_sections .container{ margin-top:-60px; }
-.column4_colorbox{ width:25%; float:left; background-color:#e32222; color:#fff; text-align:center;  margin:0; padding:40px 30px; position:relative; box-sizing:border-box; }
+.column4_colorbox{ background-color:#e32222; color:#fff; text-align:center;  width:25%; float:left;  margin:0; padding:40px 30px; position:relative; box-sizing:border-box; }
 .column4_colorbox .page_img_box{ position:relative; margin:0 auto 20px auto; overflow:hidden; width:70px; height:65px; }
 .column4_colorbox .page_img_box img{ height:auto; width:100%; vertical-align:top;}
 .column4_colorbox h3{ font-size:22px; font-weight:600; margin:0 0 20px;}
@@ -233,11 +233,11 @@ h2.sectiontitle{font-weight:600; font-size:40px; margin-bottom:50px; position:re
 -------------------------------------------------------------- */
 #sidebar{ float:right; width:28%;}
 aside.widget{ background-color:#fff; margin-bottom:30px; padding:30px; box-shadow: 0 0 5px #eee;  }
-h3.widget-title{padding:0 0 15px; margin:0 0 20px; color:#303030; font-size:24px; font-weight:600; position:relative; border-bottom:1px solid #ddd; }
+h3.widget-title{padding:0 0 15px;  font-size:24px; font-weight:600; margin:0 0 20px; color:#303030; position:relative; border-bottom:1px solid #ddd; }
 aside.widget ul{ list-style:none; margin:0; padding:0; }
 #sidebar ul li{ border-bottom:1px dashed #eee; margin:0 0 2px; padding:7px 10px 7px 0;}
-#sidebar ul li::before{content:"\f105";font-family:'Font Awesome 5 Solid'; margin-right:10px;}
-#sidebar ul li a{ color:#3b3b3b; }
+#sidebar ul li::before{content:"\f105";font-family:'Font Awesome 5 Solid'; margin-right:10px;  display:inline-block;}
+#sidebar ul li a{ color:#3b3b3b; display:inline-block; }
 #sidebar ul li a:hover{ color:#34c6f6;}
 #sidebar ul li:last-child{ border:none;}
 aside .textwidget{ padding:20px; background-color:#f5f5f4;}

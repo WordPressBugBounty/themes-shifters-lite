@@ -5,7 +5,7 @@ custom-logo, featured-images, editor-style, custom-background, threaded-comments
 translation-ready
 Requires at least: 5.0
 Requires PHP:  5.6
-Tested up to: 6.0
+Tested up to: 6.8
 Stable tag: 2.0
 License: GNU General Public License version 2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -37,6 +37,11 @@ Shifters Lite is a attractive, sleek, intuitive, responsive and multi-purpose lo
 
 = 2.1 =
 *  html5 support added
+
+= 2.2 =
+*  Theme Checked with WordPress Latest Version
+*  Tested With WooCommerce compatible
+*  Fontawesome code updated
 
 == Resources ==
 
